@@ -2,10 +2,6 @@
 
 import sys, os
 
-sys.path.append(os.getcwd()+"/GBM_patchMap/")
+sys.path.append(os.getcwd()+"/venv/GBM_patchMAP/")
 
-
-# Download the packages which are not downloaded yet/ Import
-from paths import path, raw_data_path, curated_data_path, object_path
-import needed_packages
-
+from paths import data_path, raw_path, curated_path, object_path, network_path, prism_path, result_path
