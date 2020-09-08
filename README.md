@@ -15,7 +15,7 @@ Both experimentally determined three dimensional (3D) structures and computation
 In order to find the functional domains on the proteins, [Pfam database](ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam33.1/proteomes/9606.tsv.gz) was used. (Download link for pfam data for human proteome - 9606).
 
 ### Oncogenic Mutations
-The mutation data for Glioblastoma cell lines were obtained from the 20Q2 version of [CCLE database]([https://depmap.org/portal/download/](https://depmap.org/portal/download/)).
+The mutation data for Glioblastoma cell lines were obtained from the 20Q2 version of [CCLE database](https://depmap.org/portal/download/).
 
 ## Scripts
 
