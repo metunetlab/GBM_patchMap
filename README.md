@@ -5,7 +5,7 @@ This is an implementation of patchMAP package and its modules in order to struct
 ## Data
 
 ### Patient Networks
-In this study, previously reconstructed tumor-specific networks were retrieved from [(Tuncbag et al. 2016)]([https://www.nature.com/articles/srep28668](https://www.nature.com/articles/srep28668)). 
+In this study, previously reconstructed tumor-specific networks were retrieved from [(Tuncbag et al. 2016)](https://www.nature.com/articles/srep28668). 
 
 ### Protein Structures
 
@@ -19,7 +19,7 @@ The mutation data for Glioblastoma cell lines were obtained from the 20Q2 versio
 
 ## Scripts
 
-All the corresponding analysis was done with Python language, and the codes and all the necessary data were stored in [this GitHub repository]([https://github.com/CansuDincer/GBM_patchMap](https://github.com/CansuDincer/GBM_patchMap)).
+All the corresponding analysis was done with Python language, and the codes and all the necessary data were stored in [this GitHub repository](https://github.com/CansuDincer/GBM_patchMap).
 
 ### Structure
 
@@ -31,15 +31,6 @@ There are two folders having scripts and data files. The script folder is **"GBM
 ### Visualisation
 
 Each protein in the network graph was represented with its domains and interface residues with oncogenic mutation. Firstly, the proteins were linked with their domains having interaction with another existing protein/its domain in the graph. Secondly, the residues on the domains were searched if they have any oncogenic GBM related mutations, then these residues were also linked with the corresponding domain. 
-
-```mermaid
-graph LR
-A[P1] --> B((P1_D1))
-A --> C((P1_D2))
-B --> D{P1_P2__R#}
-C --> E{P1_P3__R#}
-```
-\* P : Protein, D : Domain, R# : Residue number (In here, the interacted protein names were also given.)
 
 After creating protein representation, all proteins were linked together according to the patient networks. At this point, the priority was to link the interacting domains in the graph, yet the protein-protein or protein-domain linkages were also possible when there is not any domain information. 
 
